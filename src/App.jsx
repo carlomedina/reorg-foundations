@@ -173,9 +173,23 @@ function Career() {
 
 function Footer() {
   return (
-    <div>
-      <h1> Footer </h1>
-    </div>
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="/partners">KadaPartners</a>
+          </li>
+          <li>
+            <a href="/careers">Build the next-gen digital native workforce</a>
+          </li>
+          <li>
+            <a href="mailto:hege@example.com">Email us</a>
+          </li>
+        </ul>
+      </nav>
+      <small>Made with ❤️</small>
+      <address>Somewhere and Everywhere</address>
+    </footer>
   );
 }
 
@@ -222,7 +236,7 @@ function Explore() {
 
   return (
     <>
-      <h1>Explore </h1>
+      <h1>Explore KadaKareer!</h1>
       <nav style={{ display: 'flex' }}>
         {[
           { label: 'Coaches', stub: 'coaches' },
